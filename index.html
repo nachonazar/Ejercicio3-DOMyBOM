@@ -17,12 +17,16 @@
     />
     <title>Ejercicio 3</title>
   </head>
-  <body>
+  <body data-bs-theme="dark">
     <main>
+      <div class="container d-flex justify-content-center mt-4">
       <form id="miFormulario">
-        <input type="text" id="tareaInput" />
-        <button type="submit">agregar tarea</button>
+        <div class="input-group">
+          <input class="form-control w-50" type="text" id="tareaInput" />
+        <button class="btn btn-primary" type="submit">agregar tarea</button>
+        </div>
       </form>
+      </div>
       <ul class="list-group d-none" id="tareaResultado"></ul>
     </main>
     <script src="./ejercicio3.js"></script>

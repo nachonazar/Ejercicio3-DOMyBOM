@@ -14,6 +14,7 @@ const agregarTarea = (e) => {
 
   const boton = document.createElement("button");
   boton.innerHTML = `<i class="bi bi-trash"></i>`;
+  boton.classList.add("btn", "btn-danger", "btn-sm", "ms-2");
 
   boton.addEventListener("click", () => {
     ulTarea.removeChild(tareaLista);
