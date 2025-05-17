@@ -1,11 +1,14 @@
 const agregarTarea = (e) => {
   e.preventDefault();
-  console.log(e);
 
   const tarea = document.querySelector("#tareaInput");
   const ulTarea = document.querySelector("#tareaResultado");
+  
+  if(tarea.value.trim() === ""){
+    return;
+  }
+  
   const tareaLista = document.createElement("li");
-
   tareaLista.textContent = tarea.value;
   tareaLista.classList.add("list-group-item");
 
