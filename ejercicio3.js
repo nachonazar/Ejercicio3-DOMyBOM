@@ -11,6 +11,8 @@ const agregarTarea = (e) => {
   const tareaLista = document.createElement("li");
   tareaLista.textContent = tarea.value;
   tareaLista.classList.add("list-group-item");
+  tareaLista.classList.add("container");
+  tareaLista.classList.add("w-75");
 
   const boton = document.createElement("button");
   boton.innerHTML = `<i class="bi bi-trash"></i>`;
@@ -23,7 +25,7 @@ const agregarTarea = (e) => {
   tareaLista.appendChild(boton);
   ulTarea.appendChild(tareaLista);
   ulTarea.classList.remove("d-none");
-  tarea.value = "";
+  formulario.reset();
 };
 
 const formulario = document.getElementById("miFormulario");
