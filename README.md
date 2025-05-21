@@ -18,7 +18,7 @@ Este proyecto es una práctica simple con **Bootstrap** y **JavaScript** que uti
 Ignacio Nazar
 
 ### 🚀 ¿Cómo utilizar este proyecto?  
-Podés clonar el repositorio y revisar todos los ejercicios con:
+Podés clonar el repositorio y revisar el ejercicio con:
 
 ```bash
 git clone https://github.com/nachonazar/Ejercicio3-DOMyBOM.git
